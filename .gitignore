@@ -1,0 +1,28 @@
+# Dependencies
+node_modules/
+
+# Build outputs
+frontend/build/
+frontend/.svelte-kit/
+
+# Database
+backend/*.db
+
+# Environment files
+.env
+.env.*
+!.env.example
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+npm-debug.log*
